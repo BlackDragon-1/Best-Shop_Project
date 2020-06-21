@@ -1,0 +1,44 @@
+.opening {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+     
+
+    &__content {
+        margin-top: 130px;
+        text-align: center;
+        @include mobile{
+            margin-top: 100px;
+        }
+    }
+    
+    &__header {
+        font-family: var(--font-raleway);
+        font-size: 3.0625rem;
+    }
+    
+    &__heading {
+        margin-top: 20px;
+        margin-bottom: 38px;
+        @include mobile{
+            margin-left: 50px;
+            margin-right: 50px;
+        }
+    }
+    
+    &__image {
+        width: 100%;
+        height: auto;
+
+        
+        @include mobile {
+            width: 200%;
+            transform: translate(-24%, 0);
+        }
+    }
+
+
+  }
+  
+ 
+  
