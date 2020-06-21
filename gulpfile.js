@@ -1,5 +1,5 @@
 // Ścieżka do aktualnie wykonynpmwanego zadania
-const entryPath = "1_Gotowy projekt BestShop";
+const entryPath = "src";
 
 
 const gulp = require("gulp");

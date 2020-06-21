@@ -17,9 +17,7 @@
             &:last-child {
                 padding-right: 0;
             }
-
         }
-      
 
         &__link {
             color: var(--color-grey);
@@ -53,15 +51,6 @@
             width: 100%;
             padding-bottom: 20px;
             display: none;
-      
-            .nav__element {
-              padding: 0;
-            }
-      
-            .nav__link {
-              display: block;
-              padding: 14px 20px;
-            }
           }
         } 
      
@@ -113,7 +102,14 @@
         .menu__btn:checked ~ .header__nav{
             display: flex;
         }
-        
+
+        .header__nav{
+            padding: 20px;
+            margin-left: -20px;
+        }
+        .nav__element{
+            padding: 7px;
+        }
     }
     
 

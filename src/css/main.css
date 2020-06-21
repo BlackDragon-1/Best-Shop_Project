@@ -515,13 +515,6 @@ h2 {
     padding-bottom: 20px;
     display: none;
   }
-  .header__nav .nav__element {
-    padding: 0;
-  }
-  .header__nav .nav__link {
-    display: block;
-    padding: 14px 20px;
-  }
 }
 .header .menu__btn {
   display: none;
@@ -562,6 +555,13 @@ h2 {
   }
   .header .menu__btn:checked ~ .header__nav {
     display: flex;
+  }
+  .header .header__nav {
+    padding: 20px;
+    margin-left: -20px;
+  }
+  .header .nav__element {
+    padding: 7px;
   }
 }
 
