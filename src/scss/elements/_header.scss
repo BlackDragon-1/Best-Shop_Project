@@ -101,6 +101,9 @@
         
         .menu__btn:checked ~ .header__nav{
             display: flex;
+            
+                
+            
         }
 
         .header__nav{
@@ -112,11 +115,19 @@
             padding: 7px;
         }
         
+        
     }
     
 }
 
-
+// .menu__btn:checked{
+//     @include mobile{
+//         footer,
+//                 section:not(.opening){
+//                    display: none;
+//                 }
+//     }
+// }
 
 
 

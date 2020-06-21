@@ -1,13 +1,9 @@
   body {
   font-family: $font-open-sans;
-  @include mobile{
-    footer,
-    section:not(.opening){
-       display: none;
-    }
+
 }
    
-}
+
 
   a {
     text-decoration: none;

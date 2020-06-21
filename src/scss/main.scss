@@ -8,13 +8,14 @@
 @import "settings/fonts";
 @import "settings/index";
 @import "settings/mixins";
-
+@import "./elements/buttons";
 
 
 
 @import "./elements/base";
 @import "./elements/header";
 @import "./elements/opening";
-@import "./elements/buttons";
+@import "./elements/statistic";
+
 
 @import "./style";
