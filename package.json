@@ -12,7 +12,7 @@
     "gulp-sass": "^4.0.2",
     "gulp-sourcemaps": "^2.6.5",
     "sass": "^1.26.3",
-    "node-sass": "^4.14.1"
+    "node-sass": "^7.0.0"
   },
   "browserslist": [
     "defaults"
